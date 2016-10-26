@@ -1,0 +1,14 @@
+Report Project 2
+Many of you have raised a concern about the project spec being unclear about what has to be included in the report. Here is what you should include in the report:
+With the configurations mentioned in the spec:
+1. Cache performance (use only Long trace):
+  a. Plot a graph showing the trend for miss rate vs cache size (assoc and block size constant) for each protocol.
+  b. Plot a graph showing the trend for miss rate vs cache block size (assoc and cache size constant) for each protocol.
+  c. Plot a graph showing the trend for number of memory transactions vs cache size (assoc and block size constant) for each protocol.
+  d. Plot a graph showing the trend for number of memory transactions vs cache block size (assoc and cache size constant) for each protocol.
+ 
+Analysis: Discuss the various aspects of the coherence protocols- number of memory transactions, complexity of the protocols and how the performance is impacted. As you vary the configuration, discuss the trends within a system and across protocol.   
+ 
+2. Bus Transactions: Out of the listed Metrics, only report numbers from 17 (cache to cache transfers) to 23 (busUpgrs). Use only Long trace.
+   Analysis: Discuss the trend about bus traffic. For various configurations, discuss the trend across protocols.
+  Report these metrics for the experiments you do for generating the graphs, no other additional experiments are needed.

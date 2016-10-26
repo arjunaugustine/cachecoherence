@@ -1,0 +1,64 @@
+EXECUTABLE CONFIGURATIONS
+
+DEBUG
+	MSI
+		./simulate_cache 32768 8 64 4 0 canneal.04t.debug > msi_32768_8_64.out
+		diff msi_32768_8_64.out debug_msi_32768_8_64.out 
+		./simulate_cache 65536 8 32 4 0 canneal.04t.debug > msi_65536_8_32.out
+		diff msi_65536_8_32.out debug_msi_65536_8_32.out
+		./simulate_cache 65536 8 64 4 0 canneal.04t.longTrace > msi_65536_8_64.out
+		diff msi_65536_8_64.out long_msi_65536_8_64.out
+
+	MOSI
+		./simulate_cache 32768 8 64 4 1 canneal.04t.debug > mosi_32768_8_64.out
+		diff mosi_32768_8_64.out debug_mosi_32768_8_64.out 
+		./simulate_cache 65536 8 32 4 1 canneal.04t.debug > mosi_65536_8_32.out
+		diff mosi_65536_8_32.out debug_mosi_65536_8_32.out
+		./simulate_cache 65536 8 64 4 1 canneal.04t.longTrace > mosi_65536_8_64.out
+		diff mosi_65536_8_64.out long_mosi_65536_8_64.out 
+
+	MOESI
+
+		./simulate_cache 32768 8 64 4 2 canneal.04t.debug > moesi_32768_8_64.out
+		diff moesi_32768_8_64.out debug_moesi_32768_8_64.out 
+		./simulate_cache 65536 8 32 4 2 canneal.04t.debug > moesi_65536_8_32.out
+		diff moesi_65536_8_32.out debug_moesi_65536_8_32.out
+		./simulate_cache 65536 8 64 4 2 canneal.04t.longTrace > moesi_65536_8_64.out
+		diff moesi_65536_8_64.out long_moesi_65536_8_64.out
+
+REPORT
+	MSI
+		./simulate_cache 32768 8 64 4 0 canneal.04t.longTrace > results/msi_32768_8_64.out
+		./simulate_cache 65536 8 64 4 0 canneal.04t.longTrace > results/msi_65536_8_64.out
+		./simulate_cache 131072 8 64 4 0 canneal.04t.longTrace > results/msi_131072_8_64.out
+		./simulate_cache 262144 8 64 4 0 canneal.04t.longTrace > results/msi_262144_8_64.out
+		./simulate_cache 524288 8 64 4 0 canneal.04t.longTrace > results/msi_524288_8_64.out
+
+
+		./simulate_cache 1048576 8 64 4 0 canneal.04t.longTrace > results/msi_1048576_8_64.out
+		./simulate_cache 1048576 8 128 4 0 canneal.04t.longTrace > results/msi_1048576_8_128.out
+		./simulate_cache 1048576 8 256 4 0 canneal.04t.longTrace > results/msi_1048576_8_256.out
+
+	MOSI
+		./simulate_cache 32768 8 64 4 1 canneal.04t.longTrace > results/mosi_32768_8_64.out
+		./simulate_cache 65536 8 64 4 1 canneal.04t.longTrace > results/mosi_65536_8_64.out
+		./simulate_cache 131072 8 64 4 1 canneal.04t.longTrace > results/mosi_131072_8_64.out
+		./simulate_cache 262144 8 64 4 1 canneal.04t.longTrace > results/mosi_262144_8_64.out
+		./simulate_cache 524288 8 64 4 1 canneal.04t.longTrace > results/mosi_524288_8_64.out
+
+
+		./simulate_cache 1048576 8 64 4 1 canneal.04t.longTrace > results/mosi_1048576_8_64.out
+		./simulate_cache 1048576 8 128 4 1 canneal.04t.longTrace > results/mosi_1048576_8_128.out
+		./simulate_cache 1048576 8 256 4 1 canneal.04t.longTrace > results/mosi_1048576_8_256.out
+
+	MOESI
+		./simulate_cache 32768 8 64 4 2 canneal.04t.longTrace > results/moesi_32768_8_64.out
+		./simulate_cache 65536 8 64 4 2 canneal.04t.longTrace > results/moesi_65536_8_64.out
+		./simulate_cache 131072 8 64 4 2 canneal.04t.longTrace > results/moesi_131072_8_64.out
+		./simulate_cache 262144 8 64 4 2 canneal.04t.longTrace > results/moesi_262144_8_64.out
+		./simulate_cache 524288 8 64 4 2 canneal.04t.longTrace > results/moesi_524288_8_64.out
+
+
+		./simulate_cache 1048576 8 64 4 2 canneal.04t.longTrace > results/moesi_1048576_8_64.out
+		./simulate_cache 1048576 8 128 4 2 canneal.04t.longTrace > results/moesi_1048576_8_128.out
+		./simulate_cache 1048576 8 256 4 2 canneal.04t.longTrace > results/moesi_1048576_8_256.out

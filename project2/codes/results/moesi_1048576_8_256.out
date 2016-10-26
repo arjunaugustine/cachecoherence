@@ -1,0 +1,103 @@
+===== SP15 506 BUS BASED CACHE Configuration =====
+L1_SIZE:		1048576
+L1_ASSOC:		8
+L1_BLOCKSIZE:		256
+NUMBER OF PROCESSORS:	4
+COHERENCE PROTOCOL:	MOESI 
+TRACE FILE:		canneal.04t.longTrace
+============ Simulation results (Cache 0) ============ 
+1 . number of reads:                      112661
+2 . number of read misses:                5023
+3 . number of writes:                     11942
+4 . number of write misses:               39
+5 . total miss rate:                      0.040625
+6 . number of writebacks:                 152
+7 . number of I2E                         1121
+8 . number of I2S                         3902
+9 . number of M2S                         0
+10. number of E2S                         1117
+11. number of S2M                         573
+12. number of I2M                         39
+13. number of E2M                         2
+14. number of O2M                         137
+15. number of M2O                         166
+16. number of memory transactions:        1301
+17. number of cache-to-cache transfers:   3913
+18. number of interventions:              166
+19. number of invalidations:              2132
+20. number of flushes:                    539
+21. number of BusRds issued:              5023
+22. number of BusRdXs issued:             39
+23. number of BusUpgrs issued:            710
+============ Simulation results (Cache 1) ============ 
+1 . number of reads:                      110830
+2 . number of read misses:                5070
+3 . number of writes:                     11710
+4 . number of write misses:               40
+5 . total miss rate:                      0.041701
+6 . number of writebacks:                 164
+7 . number of I2E                         1166
+8 . number of I2S                         3904
+9 . number of M2S                         0
+10. number of E2S                         1151
+11. number of S2M                         583
+12. number of I2M                         40
+13. number of E2M                         8
+14. number of O2M                         104
+15. number of M2O                         133
+16. number of memory transactions:        3635
+17. number of cache-to-cache transfers:   1639
+18. number of interventions:              133
+19. number of invalidations:              2157
+20. number of flushes:                    436
+21. number of BusRds issued:              5070
+22. number of BusRdXs issued:             40
+23. number of BusUpgrs issued:            687
+============ Simulation results (Cache 2) ============ 
+1 . number of reads:                      114938
+2 . number of read misses:                5004
+3 . number of writes:                     12383
+4 . number of write misses:               42
+5 . total miss rate:                      0.039632
+6 . number of writebacks:                 152
+7 . number of I2E                         1141
+8 . number of I2S                         3863
+9 . number of M2S                         0
+10. number of E2S                         1129
+11. number of S2M                         574
+12. number of I2M                         42
+13. number of E2M                         7
+14. number of O2M                         157
+15. number of M2O                         192
+16. number of memory transactions:        4729
+17. number of cache-to-cache transfers:   469
+18. number of interventions:              192
+19. number of invalidations:              2107
+20. number of flushes:                    601
+21. number of BusRds issued:              5004
+22. number of BusRdXs issued:             42
+23. number of BusUpgrs issued:            731
+============ Simulation results (Cache 3) ============ 
+1 . number of reads:                      113428
+2 . number of read misses:                5084
+3 . number of writes:                     12108
+4 . number of write misses:               39
+5 . total miss rate:                      0.040809
+6 . number of writebacks:                 162
+7 . number of I2E                         1184
+8 . number of I2S                         3900
+9 . number of M2S                         0
+10. number of E2S                         1164
+11. number of S2M                         592
+12. number of I2M                         39
+13. number of E2M                         12
+14. number of O2M                         100
+15. number of M2O                         145
+16. number of memory transactions:        4753
+17. number of cache-to-cache transfers:   532
+18. number of interventions:              145
+19. number of invalidations:              2148
+20. number of flushes:                    416
+21. number of BusRds issued:              5084
+22. number of BusRdXs issued:             39
+23. number of BusUpgrs issued:            692
